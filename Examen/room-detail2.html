@@ -18,26 +18,29 @@
                 <h1>Detalle de Habitacion </h1>
 
                  <hr>
-               <h2>Habitacion Clásica</h2>
+               <h2>Habitacion Compartida</h2>
                 <ul>
-                    <img src="../Examen/Imagen/habitacion-de-hotel.jpg" alt="ffmm"title="Francisco Miguel Navarro Crespo" width="640" height="360">
+                    <img src="../Examen/Imagen/habitacion doble.jpg" alt="ffmm"title="Francisco Miguel Navarro Crespo" width="640" height="360">
 
-                    <p>Nuestra Habitación Clásica es un espacio acogedor y relajante diseñado para proporcionarte un descanso placentero. La habitación cuenta con una cama individual cómoda y un baño privado con todos los amenities necesarios.</p>
+                    <p>Nuestra habitación doble es un espacio acogedor y elegante diseñado para que disfrutes de un descanso relajante. La habitación cuenta con 2 camas dobles lindas y cómodas, perfecta para compartir con amigos.</p>
                     <p>Cuenta con una vista inreible hacia el mar , lo que te permitira disfrutar de un ambiente tranquilo y relajante</p>
                     <h4>Caracteristicas</h4>
-                    <li>Cama individual</li>
+                    <li>2 Camas individuales</li>
                     <li>Baño privado con ducha</li>
-                    <li>Desayuno incluido</li>
+                    <li>Desayuno, Comida y cena incluidos</li>
                     <li>TV con canales y servicios de streaming</li>
                     <li>Aire acondicionado</li>
                     <h4>Comodidades</h4>
                     <li>Toallas y ropa de cama de alta calidad</li>
                     <li>Productos de aseo personal</li>
                     <li>Wí-Fí gratuito</li>
+                    <li>Minibar y nevera para almacenar bebidas y snacks</li>
+                    <li>Caja de seguridad para guardar tus objetos de valor</li>
+                    <li>Servicio de habitación las 24 horas</li>
                     
 
                     
-                    <p>Precio $25,000 pesos/Noche </p>
+                    <p>Precio $50,000 pesos/Noche </p>
               </ul>
               <h3>Reserva ahora</h3>
             <form>
@@ -51,11 +54,12 @@
                <br>
                <label for="Fecha-entrada">Fecha de entrada</label>
                <br>
-               <input type="date" id="Fecha-entrada" name="Fecha-entrada" min="2025-01-01" max="2025-12-31" required>
+               <input type="date" id="Fecha-entrada" name="Fecha-entrada" onchange="this.form.Fecha-salida. min= this.value" max="2025-12-31" required>
                <br>
                <label for="Fecha-salida">Fecha de salida</label>
                <br>
                <input type="date" id="Fecha-salida" name="Fecha-salida" min="2025-01-01" max="2025-12-31" required>
+               
                <br>
                <label for="Cantidad-personas">Cantidad de personas</label>
                <br>
@@ -64,7 +68,6 @@
                <input type="submit" name="Reservar" value="Reservar ahora">
             </form>
 <br>
-            
                  <a href="rooms.html">Volver a las habitaciones</a></li>
            
             <br>
@@ -76,3 +79,7 @@
        
 
 </body>
+
+
+
+
